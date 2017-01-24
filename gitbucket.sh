@@ -10,4 +10,4 @@ db {
 EOCONF
 fi
 
-exec java $JAVA_OPTS -jar /opt/gitbucket.war $GITBUCKET_OPTS
+exec java $JAVA_OPTS -Xmx256m -jar /opt/gitbucket.war $GITBUCKET_OPTS
